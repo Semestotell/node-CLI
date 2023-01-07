@@ -1,0 +1,28 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "test-node",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Kyrylo Kozlov",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semestotell/node-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Semestotell/node-CLI/issues"
+  },
+  "homepage": "https://github.com/Semestotell/node-CLI#readme"
+}
